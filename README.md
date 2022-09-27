@@ -72,5 +72,9 @@ Module to create a Azure storage account.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | The id of the storage account. |
+| <a name="output_name"></a> [name](#output\_name) | The name of the storage account. |
+| <a name="output_primary_access_key"></a> [primary\_access\_key](#output\_primary\_access\_key) | The primary access key for the storage account. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
