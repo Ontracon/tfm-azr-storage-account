@@ -209,7 +209,7 @@ variable "user_assigned_identity_id" {
 # Network Access
 # ======================================================================================================================
 variable "allowed_ips" {
-  description = "One or more IP Addresses, or CIDR Blocks which should be able to access the Azure Storage Account. Defaults to the external proxy IPs through which BMW locations communicate to the outside."
+  description = "One or more IP Addresses, or CIDR Blocks which should be able to access the Azure Storage Account."
   type        = list(string)
   default     = ["0.0.0.0/0"]
 }

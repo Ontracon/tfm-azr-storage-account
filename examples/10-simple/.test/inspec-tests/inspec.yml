@@ -1,0 +1,20 @@
+name: Inspec Test
+title: STORAGE Test Profile
+maintainer: OTC Team
+copyright: OTC Team
+copyright_email: j.kritzen@ontracon.de
+license: Apache-2.0
+summary: An Base InSpec Profile for testing Module tfm-azr-storage
+version: 0.1.0
+inspec_version: '>= 4.7'
+depends:
+  - name: inspec-azure
+    url: https://github.com/inspec/inspec-azure/archive/main.tar.gz
+supports:
+  - platform-family: linux
+  - platform: azure
+inputs:
+  - name: CLOUD_REGION
+    description: Should contain the CLOUD_REGION
+    type: String
+    required: true
