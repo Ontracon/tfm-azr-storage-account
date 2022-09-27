@@ -52,7 +52,6 @@ jobs:
           ROOT_DIR: '${{ github.workspace }}/examples/10-simple'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLOUD_REGION: 'westeurope'
-          AUTO_CREATE_TF_BACKEND: 'false'
           ARM_CLIENT_ID: ${{ secrets.OTC_TEST_ARM_CLIENT_ID }}
           ARM_CLIENT_SECRET: ${{ secrets.OTC_TEST_ARM_CLIENT_SECRET }}
           ARM_TENANT_ID: ${{ secrets.OTC_TEST_ARM_TENANT_ID }}
