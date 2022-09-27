@@ -56,4 +56,4 @@ jobs:
           ARM_CLIENT_SECRET: ${{ secrets.OTC_TEST_ARM_CLIENT_SECRET }}
           ARM_TENANT_ID: ${{ secrets.OTC_TEST_ARM_TENANT_ID }}
           ARM_SUBSCRIPTION_ID: ${{ secrets.OTC_TEST_ARM_SUBSCRIPTION_ID }}
-          PUBLISH_NAME: 'westeurope - 10-simple'      
+          PUBLISH_NAME: 'Results - westeurope - 10-simple'      
