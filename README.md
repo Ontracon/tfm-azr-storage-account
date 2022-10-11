@@ -1,10 +1,10 @@
 # tfm-azr-storage-account
 
 <!--.test-default-test-start-->
-[![OTC repo](https://img.shields.io/static/v1?logo=git&style=plastic&label=OTC%20repo&message=✓%205%20|✗%200%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227474974)
-[![TF Base](https://img.shields.io/static/v1?logo=terraform&style=plastic&label=TF%20Base&message=✓%203%20|✗%200%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227474974)
-[![TF Compliance (tflint)](https://img.shields.io/static/v1?logo=terraform&style=plastic&label=TF%20Compliance%20(tflint)&message=✓%201%20|✗%20%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227474974)
-[![Security (Checkov)](https://img.shields.io/static/v1?logo=terraform&style=plastic&label=Security%20(Checkov)&message=✓%2011%20|✗%200%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227474974)
+[![OTC repo](https://img.shields.io/static/v1?logo=git&style=plastic&label=OTC%20repo&message=✓%205%20|✗%200%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227705205)
+[![TF Base](https://img.shields.io/static/v1?logo=terraform&style=plastic&label=TF%20Base&message=✓%203%20|✗%200%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227705205)
+[![TF Compliance (tflint)](https://img.shields.io/static/v1?logo=terraform&style=plastic&label=TF%20Compliance%20(tflint)&message=✓%201%20|✗%20%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227705205)
+[![Security (Checkov)](https://img.shields.io/static/v1?logo=terraform&style=plastic&label=Security%20(Checkov)&message=✓%2011%20|✗%200%20|▲%201|➝%200&color=yellow)](https://github.com/Ontracon/tfm-azr-storage-account/actions/runs/3227705205)
 <!--.test-default-test-end-->
 
 Module to create a Azure storage account.
