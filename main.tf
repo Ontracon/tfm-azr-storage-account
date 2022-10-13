@@ -3,7 +3,7 @@
 # ============================================================================ #
 
 module "common" {
-  source               = "git::https://github.com/Ontracon/tfm-cloud-commons.git?ref=2.1.4"
+  source               = "git::https://github.com/Ontracon/tfm-cloud-commons.git?ref=2.1.5"
   cloud_region         = var.cloud_region
   global_config        = var.global_config
   custom_tags          = var.custom_tags
