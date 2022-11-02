@@ -2,6 +2,11 @@
 **/*.local
 **/*.local/
 
+# Ignore Editor Config
+.idea
+.theia
+
+
 # Local .terraform directories
 **/.terraform/*
 

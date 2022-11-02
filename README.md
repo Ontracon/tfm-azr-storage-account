@@ -27,7 +27,7 @@ Module to create a Azure storage account.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_common"></a> [common](#module\_common) | git::https://github.com/Ontracon/tfm-cloud-commons.git | 1.0.0 |
+| <a name="module_common"></a> [common](#module\_common) | git::https://github.com/Ontracon/tfm-cloud-commons.git | 2.3.0 |
 
 ## Resources
 

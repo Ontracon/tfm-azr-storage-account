@@ -43,8 +43,8 @@ jobs:
           ROOT_DIR: '${{ github.workspace }}/'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ROOT_MODULE: 'true'
-          PUBLISH_NAME: 'Results - root'   
-      
+          PUBLISH_NAME: 'Results - root'
+
       - id: azure_test
         name: 'Test - Example 10-simple'
         uses: Ontracon/otc-test-terraform-action@main

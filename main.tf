@@ -16,6 +16,7 @@ module "common" {
 # ============================================================================ #
 #                       resource_group_name                                    #
 # ============================================================================ #
+//noinspection HILUnresolvedReference
 resource "azurerm_resource_group" "rg" {
   count    = var.resource_group_name == "" ? 1 : 0
   location = var.cloud_region
@@ -26,6 +27,7 @@ resource "azurerm_resource_group" "rg" {
 # ============================================================================ #
 #                       Storage Account (General Purpose)                      #
 # ============================================================================ #
+//noinspection HILUnresolvedReference
 resource "azurerm_storage_account" "general_purpose" {
   resource_group_name = var.resource_group_name == "" ? azurerm_resource_group.rg[0].name : var.resource_group_name
   location            = var.cloud_region
